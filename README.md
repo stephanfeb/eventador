@@ -467,6 +467,7 @@ Future<void> main() async {
 ```
 
 // Example commands and events
+```dart
 class CreateOrderCommand extends Command {
   final String orderId;
   final String customerId;
