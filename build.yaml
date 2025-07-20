@@ -1,0 +1,23 @@
+targets:
+  $default:
+    builders:
+      isar_generator|isar_generator:
+        enabled: true
+        options:
+          # Generate Isar collections for event storage and sagas
+          generate_for:
+            - lib/src/storage/**.dart
+            - lib/src/saga/**.dart
+      
+      # Enable build_runner for code generation
+      build_runner|build_runner:
+        enabled: true
+
+# Global build options
+global_options:
+  isar_generator|isar_generator:
+    options:
+      # Optimize for performance
+      optimize: true
+      # Enable inspector for debugging
+      inspector: true
