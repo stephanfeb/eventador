@@ -987,20 +987,6 @@ Eventador is part of a larger ecosystem:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- **Isar Team**: For the excellent database foundation
-- **Dactor Community**: For the actor model inspiration  
-- **DuraQ Contributors**: For reliable queue operations
-- **Event Sourcing Community**: For patterns and best practices
-
-## 📞 Support
-
-- **Documentation**: [Full API Documentation](https://pub.dev/documentation/eventador/latest/)
-- **Issues**: [GitHub Issues](https://github.com/your_org/eventador/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your_org/eventador/discussions)
-- **Discord**: [Community Discord](https://discord.gg/eventador)
-
 ---
 
 **Built with ❤️ for the Dart and Flutter community**
